@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<p><strong>Developer:</strong> {{ page.developer }}</p>
+<p><strong>Release Date:</strong> {{ page.release_date | date: "%B %d, %Y" }}</p>
+<p><strong>Price:</strong> {{ page.price }}</p>
+
+{{ content }}
+
+{% if page.play_store_link %}
+<p><a href="{{ page.play_store_link }}" target="_blank">Get it on Google Play</a></p>
+{% endif %}
