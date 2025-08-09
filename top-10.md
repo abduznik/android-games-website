@@ -9,7 +9,7 @@ permalink: /top-10/
 <ol>
   <li><a href="{{ '/games/Balatro/' | relative_url }}">Balatro</a></li>
   <li><a href="{{ '/games/Dredge/' | relative_url }}">Dredge</a></li>
-  <li><a href="{{ '/games/Dead Cells/' | relative_url }}">Dead Cells</a></li>
+  <li><a href="{{ '/games/Dead-Cells/' | relative_url }}">Dead Cells</a></li>
   <li>Game Title 4</li>
   <li>Game Title 5</li>
   <li>Game Title 6</li>
