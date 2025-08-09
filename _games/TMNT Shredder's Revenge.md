@@ -3,7 +3,7 @@ layout: game
 title: TMNT Shredder's Revenge
 developer: Tribute Games
 release_date: 2025-04-15
-price: $0.00
+price: free
 play_store_link: https://play.google.com/store/apps/details?id=com.netflix.NGP.TMNTShreddersRevenge
 ---
 
