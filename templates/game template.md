@@ -14,7 +14,7 @@ play_store_link: YOUR_PLAY_STORE_LINK
 
 <!-- Optional: Add a rating section -->
 <!-- ## My Rating -->
-<!-- **Overall:** ⭐⭐⭐⭐☆ (4 out of 5 stars) -->
+<!-- **Overall:** ⭐⭐⭐⭐☆-->
 
 <!-- Optional: Add a trailer section -->
 <!-- ## Trailer -->

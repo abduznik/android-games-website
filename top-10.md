@@ -7,8 +7,8 @@ permalink: /top-10/
 <h1>My Personal Top 10 Android Games</h1>
 
 <ol>
+  <li><a href="{{ '/games/Balatro/' | relative_url }}">Balatro</a></li>
   <li><a href="{{ '/games/Dredge/' | relative_url }}">Dredge</a></li>
-  <li><a href="{{ '/games/example-premium-game-2/' | relative_url }}">Example Premium Game 2</a></li>
   <li>Game Title 3</li>
   <li>Game Title 4</li>
   <li>Game Title 5</li>
