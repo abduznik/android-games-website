@@ -11,14 +11,12 @@
             "id": "ce1c22c0012747f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_games/Dredge.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/images/dredge_screenshot.webp"
               },
-              "icon": "lucide-file",
-              "title": "Dredge"
+              "icon": "lucide-image",
+              "title": "dredge_screenshot"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_games/Dredge.md",
+                "file": "assets/images/dredge_screenshot.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dredge"
+              "title": "Backlinks for dredge_screenshot"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_games/Dredge.md",
+                "file": "assets/images/dredge_screenshot.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dredge"
+              "title": "Outgoing links from dredge_screenshot"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_games/Dredge.md",
+                "file": "assets/images/dredge_screenshot.webp",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dredge"
+              "title": "Outline of dredge_screenshot"
             }
           }
         ]
@@ -172,11 +170,11 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "_games/Dredge.md",
     "assets/images/dredge_screenshot.webp",
     "assets/images",
     "assets/New folder",
     "android-games-website/assets/images/dredge_screenshot.webp",
-    "_games/Dredge.md",
     "templates/game template.md",
     "android-games-website/assets/images/main.js",
     "android-games-website/assets/images",

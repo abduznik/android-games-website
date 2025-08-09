@@ -3,6 +3,3 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-assets/images
-/assets/images
-assets/images/dredge_screenshot.webp
