@@ -74,3 +74,65 @@
     background-color: #222;
   }
 }
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px; /* Reduced padding */
+  font-size: 20px;   /* Reduced font size */
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff !important; /* Blue text for outline effect, added !important */
+  background-color: transparent; /* Transparent background */
+  border: 2px solid #007bff; /* Slightly thinner border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px; /* Reduced margins */
+}
+
+.btn:hover {
+  color: #ffffff !important; /* White text on hover, added !important */
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}
+
+/* Dark mode adjustments for the button */
+@media (prefers-color-scheme: dark) {
+  .btn {
+    color: #a3be8c !important; /* Lighter green for dark mode outline, added !important */
+    background-color: transparent;
+    border: 2px solid #a3be8c; /* Lighter green border */
+  }
+
+  .btn:hover {
+    color: #222 !important; /* Dark text on hover, added !important */
+    background-color: #7a9e6a; /* Darker green background on hover */
+    border-color: #7a9e6a;
+  }
+}
+
+#home-buttons-section .btn {
+  padding: 10px 20px; /* Even smaller padding */
+  font-size: 16px;   /* Even smaller font size */
+  border: 1px solid #28a745; /* Green border */
+  color: #28a745 !important; /* Green text, added !important */
+}
+
+#home-buttons-section .btn:hover {
+  background-color: #1e7e34; /* Darker green background on hover */
+  color: #ffffff !important; /* White text on hover, added !important */
+}
+
+/* Dark mode adjustments for home page buttons */
+@media (prefers-color-scheme: dark) {
+  #home-buttons-section .btn {
+    border: 1px solid #20c997; /* Lighter green border for dark mode */
+    color: #20c997 !important; /* Lighter green text, added !important */
+  }
+
+  #home-buttons-section .btn:hover {
+    background-color: #179c7a; /* Darker green background on hover */
+    color: #222 !important; /* Dark text on hover, added !important */
+  }
+}
