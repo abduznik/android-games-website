@@ -3,7 +3,7 @@ layout: game
 title: Devil May Cry Peak of Combat
 developer: NebulaJoy
 release_date: 2024-01-10
-price: free
+price: Free
 play_store_link: https://play.google.com/store/apps/details?id=com.nebulajoy.act.dmcpoc
 ---
 

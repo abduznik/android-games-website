@@ -3,7 +3,7 @@ layout: game
 title: My Friend Pedro Ripe for Revenge
 developer: DeadToast Entertainment
 release_date: 2021-08-05
-price: free
+price: Free
 play_store_link: https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro
 ---
 
