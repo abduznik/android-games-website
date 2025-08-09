@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_games/TMNT Shredder's Revenge.md",
+                "file": "_games/Terraria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TMNT Shredder's Revenge"
+              "title": "Terraria"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "_games/TMNT Shredder's Revenge.md",
     "_games/Terraria.md",
     "_games/TABS Pocket Edition.md",
     "_games/Slay The Spire.md",
@@ -195,7 +196,6 @@
     "_games/Alien Isolation.md",
     "_games/Baba is You.md",
     "templates/game template.md",
-    "top-10.md",
     "assets/images/dredge_screenshot.webp",
     "assets/images",
     "assets/New folder",
