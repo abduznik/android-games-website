@@ -100,14 +100,14 @@
 /* Dark mode adjustments for the button */
 @media (prefers-color-scheme: dark) {
   .btn {
-    color: #6a0dad; /* Purple text for dark mode outline */
+    color: #B9E3C6; /* Purple text for dark mode outline */
     background-color: transparent;
-    border: 3px solid #6a0dad; /* Thicker purple border */
+    border: 3px solid #B9E3C6; /* Thicker purple border */
   }
 
   .btn:hover {
     color: #ffffff; /* White text on hover */
-    background-color: #6a0dad; /* Purple background on hover */
-    border-color: #6a0dad;
+    background-color: #B9E3C6; /* Purple background on hover */
+    border-color: #B9E3C6;
   }
 }
