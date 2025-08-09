@@ -1,0 +1,10 @@
+{
+  "id": "jekyll-preview-image",
+  "name": "Jekyll Preview Image Fix",
+  "version": "0.1.0",
+  "minAppVersion": "0.12.0",
+  "description": "Convert Jekyll image embeds with Liquid tags to local paths for Obsidian preview",
+  "author": "Abduznik",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
