@@ -77,33 +77,37 @@
 
 .btn {
   display: inline-block;
-  padding: 12px 24px;
-  font-size: 18px;
+  padding: 20px 40px; /* Larger padding */
+  font-size: 24px;   /* Larger font size */
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: #ffffff; /* White text */
-  background-color: #007bff; /* Blue background */
-  border: 1px solid #007bff;
-  border-radius: 5px;
+  color: #007bff; /* Blue text for outline effect */
+  background-color: transparent; /* Transparent background */
+  border: 3px solid #007bff; /* Thicker blue border for outline */
+  border-radius: 8px; /* Slightly more rounded corners */
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease; /* Transition all properties */
+  margin: 15px; /* Large margins */
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  border-color: #0056b3;
+  color: #ffffff; /* White text on hover */
+  background-color: #007bff; /* Blue background on hover */
+  border-color: #007bff;
 }
 
 /* Dark mode adjustments for the button */
 @media (prefers-color-scheme: dark) {
   .btn {
-    background-color: #6a0dad; /* Purple for dark mode */
-    border-color: #6a0dad;
+    color: #6a0dad; /* Purple text for dark mode outline */
+    background-color: transparent;
+    border: 3px solid #6a0dad; /* Thicker purple border */
   }
 
   .btn:hover {
-    background-color: #4b0082; /* Darker purple on hover */
-    border-color: #4b0082;
+    color: #ffffff; /* White text on hover */
+    background-color: #6a0dad; /* Purple background on hover */
+    border-color: #6a0dad;
   }
 }
