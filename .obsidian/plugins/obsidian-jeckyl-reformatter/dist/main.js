@@ -10,25 +10,26 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const obsidian_1 = require("obsidian");
-class JekyllPreviewImagePlugin extends obsidian_1.Plugin {
+class JekyllImgPrefixPlugin extends obsidian_1.Plugin {
     onload() {
         return __awaiter(this, void 0, void 0, function* () {
-            this.registerMarkdownPostProcessor((element, context) => {
+            this.registerMarkdownPostProcessor((element) => {
                 const images = element.querySelectorAll('img');
                 images.forEach(img => {
+                    var _a, _b;
                     const src = img.getAttribute('src');
-                    if (src && src.includes('{{') && src.includes('relative_url')) {
-                        // Extract the actual path inside the Liquid tag
-                        const match = src.match(/{{\s*"(.*?)"\s*\|\s*relative_url\s*}}/);
-                        if (match && match[1]) {
-                            // Replace src with vault relative path for preview
-                            const newSrc = match[1].replace(/^\/+/, ''); // remove leading slash
-                            img.setAttribute('src', newSrc);
-                        }
+                    if (src && src.startsWith('jekyll-img:')) {
+                        const relativePath = src.replace('jekyll-img:', '').replace(/^\/+/, '');
+                        // Get base path if possible (desktop only)
+                        const basePath = ((_b = (_a = this.app.vault.adapter).getBasePath) === null || _b === void 0 ? void 0 : _b.call(_a)) || '';
+                        // Construct absolute file URL
+                        const vaultPath = basePath ? `${basePath}/${relativePath}` : relativePath;
+                        const fileUrl = basePath ? `file://${vaultPath}` : relativePath;
+                        img.setAttribute('src', fileUrl);
                     }
                 });
             });
         });
     }
 }
-exports.default = JekyllPreviewImagePlugin;
+exports.default = JekyllImgPrefixPlugin;

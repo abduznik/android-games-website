@@ -1,19 +1,22 @@
-import { Plugin, MarkdownPostProcessorContext } from 'obsidian';
+import { Plugin } from 'obsidian';
 
-export default class JekyllPreviewImagePlugin extends Plugin {
+export default class JekyllImgPrefixPlugin extends Plugin {
   async onload() {
-    this.registerMarkdownPostProcessor((element, context) => {
+    this.registerMarkdownPostProcessor((element) => {
       const images = element.querySelectorAll('img');
       images.forEach(img => {
         const src = img.getAttribute('src');
-        if (src && src.includes('{{') && src.includes('relative_url')) {
-          // Extract the actual path inside the Liquid tag
-          const match = src.match(/{{\s*"(.*?)"\s*\|\s*relative_url\s*}}/);
-          if (match && match[1]) {
-            // Replace src with vault relative path for preview
-            const newSrc = match[1].replace(/^\/+/, ''); // remove leading slash
-            img.setAttribute('src', newSrc);
-          }
+        if (src && src.startsWith('jekyll-img:')) {
+          const relativePath = src.replace('jekyll-img:', '').replace(/^\/+/, '');
+
+          // Get base path if possible (desktop only)
+          const basePath = (this.app.vault.adapter as any).getBasePath?.() || '';
+
+          // Construct absolute file URL
+          const vaultPath = basePath ? `${basePath}/${relativePath}` : relativePath;
+          const fileUrl = basePath ? `file://${vaultPath}` : relativePath;
+
+          img.setAttribute('src', fileUrl);
         }
       });
     });
