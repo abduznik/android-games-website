@@ -111,3 +111,28 @@
     border-color: #a3be8c;
   }
 }
+
+#home-buttons-section .btn {
+  padding: 10px 20px; /* Even smaller padding */
+  font-size: 16px;   /* Even smaller font size */
+  border: 1px solid #28a745; /* Green border */
+  color: #28a745; /* Green text */
+}
+
+#home-buttons-section .btn:hover {
+  background-color: #28a745; /* Green background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Dark mode adjustments for home page buttons */
+@media (prefers-color-scheme: dark) {
+  #home-buttons-section .btn {
+    border: 1px solid #20c997; /* Lighter green border for dark mode */
+    color: #20c997; /* Lighter green text */
+  }
+
+  #home-buttons-section .btn:hover {
+    background-color: #20c997; /* Lighter green background on hover */
+    color: #222; /* Dark text on hover */
+  }
+}

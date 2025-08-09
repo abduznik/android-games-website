@@ -10,7 +10,7 @@ play_store_link: YOUR_PLAY_STORE_LINK
 <!-- Write your game description here. -->
 
 <!-- Add your image embeds here. Remember to place images in assets/images/ -->
-<!-- Example: ![Screenshot 1](/assets/images/your-game-screenshot-1.jpg) -->
+<!-- Example: <img src="{{ 'assets/images/dredge_screenshot.webp' | relative_url }}" /> -->
 
 <!-- Optional: Add a rating section -->
 <!-- ## My Rating -->
