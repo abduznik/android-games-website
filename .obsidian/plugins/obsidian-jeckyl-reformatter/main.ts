@@ -1,22 +1,20 @@
 import { Plugin } from 'obsidian';
 
-export default class JekyllImgPrefixPlugin extends Plugin {
-  async onload() {
+export default class LiquidHtmlImgRewritePlugin extends Plugin {
+  onload() {
     this.registerMarkdownPostProcessor((element) => {
       const images = element.querySelectorAll('img');
       images.forEach(img => {
         const src = img.getAttribute('src');
-        if (src && src.startsWith('jekyll-img:')) {
-          const relativePath = src.replace('jekyll-img:', '').replace(/^\/+/, '');
-
-          // Get base path if possible (desktop only)
-          const basePath = (this.app.vault.adapter as any).getBasePath?.() || '';
-
-          // Construct absolute file URL
-          const vaultPath = basePath ? `${basePath}/${relativePath}` : relativePath;
-          const fileUrl = basePath ? `file://${vaultPath}` : relativePath;
-
-          img.setAttribute('src', fileUrl);
+        if (src) {
+          // Match Liquid syntax: {{ "/path" | relative_url }}
+          const match = src.match(/\{\{\s*"(.*?)"\s*\|\s*relative_url\s*\}\}/);
+          if (match && match[1]) {
+            // Remove leading slash for vault-relative path
+            const cleanPath = match[1].replace(/^\/+/, '');
+            console.log(`Rewriting image src from '${src}' to '${cleanPath}'`);
+            img.setAttribute('src', cleanPath);
+          }
         }
       });
     });

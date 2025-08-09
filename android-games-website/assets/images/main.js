@@ -8,12 +8,10 @@ class LiquidHtmlImgRewritePlugin extends obsidian_1.Plugin {
             images.forEach(img => {
                 const src = img.getAttribute('src');
                 if (src) {
-                    // Match Liquid syntax: {{ "/path" | relative_url }}
+                    // Detect Liquid syntax in src attribute
                     const match = src.match(/\{\{\s*"(.*?)"\s*\|\s*relative_url\s*\}\}/);
                     if (match && match[1]) {
-                        // Remove leading slash for vault-relative path
-                        const cleanPath = match[1].replace(/^\/+/, '');
-                        console.log(`Rewriting image src from '${src}' to '${cleanPath}'`);
+                        const cleanPath = match[1].replace(/^\/+/, ''); // remove leading slash if any
                         img.setAttribute('src', cleanPath);
                     }
                 }
