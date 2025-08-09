@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "top-10.md",
+                "file": "_games/Dredge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "top-10"
+              "title": "Dredge"
             }
           }
         ]
@@ -170,17 +170,19 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
-    "_games/Dead Cells.md",
+    "assets/images/Unconfirmed 911186.crdownload",
+    "assets/images/balatro_gameplay.jpg",
+    "assets/images/deadcells_gameplay.webp",
+    "assets/images/dredge_screenshot.webp",
+    "assets/images/Unconfirmed 39494.crdownload",
     "_games/Balatro.md",
+    "top-10.md",
+    "_games/Dead Cells.md",
     "templates/game template.md",
     "_games/Dredge.md",
-    "assets/images/deadcells_gameplay.webp",
     "assets/images/Unconfirmed 930016.crdownload",
-    "top-10.md",
     "random-game.md",
-    "assets/images/balatro_gameplay.jpg",
     "assets/images/Unconfirmed 32841.crdownload",
-    "assets/images/dredge_screenshot.webp",
     "assets/images",
     "assets/New folder",
     "android-games-website/assets/images/dredge_screenshot.webp",
@@ -189,7 +191,6 @@
     "android-games-website/assets",
     "android-games-website",
     "_includes/images.html.md",
-    "_includes/images.html",
-    "_plugins/fix_image_paths.rb"
+    "_includes/images.html"
   ]
 }

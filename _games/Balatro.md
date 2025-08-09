@@ -15,7 +15,7 @@ Ever had a gambling problem? Good! Then this game is perfect for you! Balatro is
 ## My Rating
  **Overall:** ⭐⭐⭐⭐⭐ 
 
-A must have game for anyone using a phone, seriously. You can play this game anywhere from the workplace, to the toilet even while driving! (not recommended though..)
+A must have game for anyone using a phone, seriously. You can play this game anywhere from the workplace, to the toilet even while driving! (don't do it seriously)
 
 <!-- Optional: Add a trailer section -->
 ## Trailer
