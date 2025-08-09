@@ -74,3 +74,36 @@
     background-color: #222;
   }
 }
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff; /* White text */
+  background-color: #007bff; /* Blue background */
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}
+
+/* Dark mode adjustments for the button */
+@media (prefers-color-scheme: dark) {
+  .btn {
+    background-color: #6a0dad; /* Purple for dark mode */
+    border-color: #6a0dad;
+  }
+
+  .btn:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+    border-color: #4b0082;
+  }
+}

@@ -5,10 +5,10 @@ title: Welcome to Android Games Showcase!
 
 Welcome to my personal showcase of the best Android games! Here you'll find a curated list of premium (paid) and some free games that I've personally enjoyed and recommend.
 
-Explore the site:
+<p>Explore the site:</p>
 
-*   [New by Release Date]({{ '/new-by-release-date/' | relative_url }})
-*   [My Top 10 Games]({{ '/top-10/' | relative_url }})
-*   [Discover a Random Game]({{ '/random-game/' | relative_url }})
+<p><a href="{{ '/new-by-release-date/' | relative_url }}" class="btn">New by Release Date</a></p>
+<p><a href="{{ '/top-10/' | relative_url }}" class="btn">My Top 10 Games</a></p>
+<p><a href="{{ '/random-game/' | relative_url }}" class="btn">Discover a Random Game</a></p>
 
 I hope you find some new favorites here!

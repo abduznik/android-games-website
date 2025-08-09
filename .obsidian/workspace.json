@@ -11,12 +11,14 @@
             "id": "ce1c22c0012747f3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/images/dredge_screenshot.webp"
+                "file": "templates/game template.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "dredge_screenshot"
+              "icon": "lucide-file",
+              "title": "game template"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/images/dredge_screenshot.webp",
+                "file": "templates/game template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for dredge_screenshot"
+              "title": "Backlinks for game template"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/images/dredge_screenshot.webp",
+                "file": "templates/game template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from dredge_screenshot"
+              "title": "Outgoing links from game template"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/images/dredge_screenshot.webp",
+                "file": "templates/game template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dredge_screenshot"
+              "title": "Outline of game template"
             }
           }
         ]
@@ -170,6 +172,7 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "top-10.md",
     "_games/Dredge.md",
     "assets/images/dredge_screenshot.webp",
     "assets/images",
@@ -184,7 +187,6 @@
     "_includes/images.html",
     "_plugins/fix_image_paths.rb",
     "_plugins/New Text Document.txt",
-    "_plugins",
-    "top-10.md"
+    "_plugins"
   ]
 }
