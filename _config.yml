@@ -37,6 +37,7 @@ minima:
   skin: dark
 plugins:
   - jekyll-feed
+  - fix_image_paths
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -2,7 +2,7 @@
 layout: game
 title: YOUR_GAME_TITLE
 developer: YOUR_GAME_DEVELOPER
-release_date: YYYY-MM-DD
+release_date: 
 price: $X.XX
 play_store_link: YOUR_PLAY_STORE_LINK
 ---
@@ -14,7 +14,7 @@ play_store_link: YOUR_PLAY_STORE_LINK
 
 <!-- Optional: Add a rating section -->
 <!-- ## My Rating -->
-<!-- **Overall:** ⭐⭐⭐⭐ (4 out of 5 stars) -->
+<!-- **Overall:** ⭐⭐⭐⭐☆ (4 out of 5 stars) -->
 
 <!-- Optional: Add a trailer section -->
 <!-- ## Trailer -->

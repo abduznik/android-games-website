@@ -172,12 +172,13 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "templates/game template.md",
+    "_games/Dredge.md",
     "android-games-website/assets/images/main.js",
     "android-games-website/assets/images",
     "android-games-website/assets",
     "android-games-website",
     "assets/images/dredge_screenshot.webp",
-    "_games/Dredge.md",
     "_includes/images.html.md",
     "_includes/images.html",
     "_plugins/fix_image_paths.rb",
@@ -185,8 +186,6 @@
     "_plugins",
     "New folder",
     "assets/images",
-    "templates/game template.md",
-    "assets/Unconfirmed 747057.crdownload",
     "top-10.md"
   ]
 }
