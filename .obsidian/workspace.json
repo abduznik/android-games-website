@@ -169,8 +169,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f592008d678d04d",
+  "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "_plugins/fix_image_paths.rb",
+    "_plugins/New Text Document.txt",
+    "_plugins",
+    "New folder",
     "assets/images",
     "assets/images/dredge_screenshot.webp",
     "templates/game template.md",

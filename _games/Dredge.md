@@ -14,7 +14,9 @@ Dredge is a game about fishing, I think, you fish a lot of things from fish, to 
 ![screenshot](/assets/images/dredge_screenshot.webp)
 <!-- Optional: Add a rating section -->
 ## My Rating
+
 **Overall:** ⭐⭐⭐⭐ ☆
+
 The game is really cool but misses on some aspects as a proper narrative, although the gameplay is amazing and has great accessibility features, the game still misses on some parts to it.
 
 <!-- Optional: Add a trailer section -->
