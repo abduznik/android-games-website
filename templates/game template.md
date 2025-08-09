@@ -10,14 +10,12 @@ play_store_link: YOUR_PLAY_STORE_LINK
 <!-- Write your game description here. -->
 
 <!-- Add your image embeds here. Remember to place images in assets/images/ -->
-<!-- Example: <img src="{{ 'assets/images/dredge_screenshot.webp' | relative_url }}" /> -->
+<!-- Example: <img src="{{ 'assets/images/dredge_screenshot.webp' | relative_url }}" />
 
-<!-- Optional: Add a rating section -->
-<!-- ## My Rating -->
-<!-- **Overall:** ⭐⭐⭐⭐☆-->
+<!-- ## My Rating
+<!-- **Overall:** ⭐⭐⭐⭐☆
 
-<!-- Optional: Add a trailer section -->
-<!-- ## Trailer -->
+<!-- ## Trailer
 <!-- <iframe width="560" height="315"
     src="https://www.youtube.com/embed/example"
     frameborder="0"

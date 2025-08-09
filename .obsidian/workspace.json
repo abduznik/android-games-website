@@ -170,13 +170,16 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
-    "random-game.md",
+    "_games/Dead Cells.md",
     "_games/Balatro.md",
-    "assets/images/balatro_gameplay.jpg",
-    "assets/images/Unconfirmed 32841.crdownload",
     "templates/game template.md",
     "_games/Dredge.md",
+    "assets/images/deadcells_gameplay.webp",
+    "assets/images/Unconfirmed 930016.crdownload",
     "top-10.md",
+    "random-game.md",
+    "assets/images/balatro_gameplay.jpg",
+    "assets/images/Unconfirmed 32841.crdownload",
     "assets/images/dredge_screenshot.webp",
     "assets/images",
     "assets/New folder",
@@ -187,7 +190,6 @@
     "android-games-website",
     "_includes/images.html.md",
     "_includes/images.html",
-    "_plugins/fix_image_paths.rb",
-    "_plugins/New Text Document.txt"
+    "_plugins/fix_image_paths.rb"
   ]
 }
