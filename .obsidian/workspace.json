@@ -170,6 +170,7 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "assets/images/Unconfirmed 572257.crdownload",
     "assets/images/Unconfirmed 911186.crdownload",
     "assets/images/balatro_gameplay.jpg",
     "assets/images/deadcells_gameplay.webp",
@@ -190,7 +191,6 @@
     "android-games-website/assets/images",
     "android-games-website/assets",
     "android-games-website",
-    "_includes/images.html.md",
-    "_includes/images.html"
+    "_includes/images.html.md"
   ]
 }
