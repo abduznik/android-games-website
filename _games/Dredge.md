@@ -11,7 +11,8 @@ play_store_link: https://play.google.com/store/apps/details?id=com.BlackSaltGame
 Dredge is a game about fishing, I think, you fish a lot of things from fish, to fish, to scrap metals..? yeah it's weird but the game is addicting, very and puts you into a narrative story that is rather basic but interesting enough to do it, you need to obtain "artifacts" which are items in different areas that you can give to a mysterious man, what will he do with them? That's for you to discover.
 <!-- Add your image embeds here. Remember to place images in assets/images/ -->
 <!-- Example: ![Screenshot 1](/assets/images/your-game-screenshot-1.jpg) -->
-![screenshot](assets/images/dredge_screenshot.webp)
+![screenshot]({{ "/assets/images/dredge_screenshot.webp" | relative_url }})
+
 <!-- Optional: Add a rating section -->
 ## My Rating
 

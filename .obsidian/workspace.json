@@ -171,14 +171,16 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+    "_includes/images.html.md",
+    "_includes/images.html",
+    "_games/Dredge.md",
+    "assets/images/dredge_screenshot.webp",
     "_plugins/fix_image_paths.rb",
     "_plugins/New Text Document.txt",
     "_plugins",
     "New folder",
     "assets/images",
-    "assets/images/dredge_screenshot.webp",
     "templates/game template.md",
-    "_games/Dredge.md",
     "assets/Unconfirmed 747057.crdownload",
     "top-10.md"
   ]
