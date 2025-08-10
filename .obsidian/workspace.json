@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "_games/Dredge.md",
+=======
+                "file": "_games/Terraria.md",
+>>>>>>> branch 'main' of https://github.com/abduznik/android-games-website.git
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Dredge"
+=======
+              "title": "Terraria"
+>>>>>>> branch 'main' of https://github.com/abduznik/android-games-website.git
             }
           }
         ]
@@ -170,11 +178,40 @@
   },
   "active": "ce1c22c0012747f3",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "assets/images/Unconfirmed 812519.crdownload",
     "assets/images/Unconfirmed 572257.crdownload",
     "assets/images/Unconfirmed 911186.crdownload",
     "assets/images/balatro_gameplay.jpg",
     "assets/images/deadcells_gameplay.webp",
+=======
+    "_games/TMNT Shredder's Revenge.md",
+    "_games/Terraria.md",
+    "_games/TABS Pocket Edition.md",
+    "_games/Slay The Spire.md",
+    "_games/Serial Cleaner.md",
+    "_games/Pascal's Wager.md",
+    "_games/Oceanhorn.md",
+    "_games/My Friend Pedro Ripe for Reve.md",
+    "_games/Minecraft.md",
+    "_games/Little Nightmares.md",
+    "_games/Lisa The Painful.md",
+    "_games/Lisa The Joyful.md",
+    "_games/Hyper Light Drifter.md",
+    "_games/Hitman Blood Money - Reprisal.md",
+    "_games/Gris.md",
+    "_games/Dredge.md",
+    "_games/Devil May Cry Peak Of Combat.md",
+    "_games/Dead Cells.md",
+    "_games/Danganronpa Trigger Happy Havoc.md",
+    "_games/Blasphemous.md",
+    "_games/Carrion.md",
+    "_games/Bendy and the ink machine.md",
+    "_games/Balatro.md",
+    "_games/Alien Isolation.md",
+    "_games/Baba is You.md",
+    "templates/game template.md",
+>>>>>>> branch 'main' of https://github.com/abduznik/android-games-website.git
     "assets/images/dredge_screenshot.webp",
     "assets/images/Unconfirmed 39494.crdownload",
     "_games/Balatro.md",
@@ -191,6 +228,14 @@
     "android-games-website/assets/images/main.js",
     "android-games-website/assets/images",
     "android-games-website/assets",
+<<<<<<< HEAD
     "_includes/images.html.md"
+=======
+    "android-games-website",
+    "_includes/images.html",
+    "_plugins/fix_image_paths.rb",
+    "_plugins/New Text Document.txt",
+    "_plugins"
+>>>>>>> branch 'main' of https://github.com/abduznik/android-games-website.git
   ]
 }

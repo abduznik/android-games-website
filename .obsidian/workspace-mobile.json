@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_games/Dredge.md",
+                "file": "top-10.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Dredge"
+              "title": "top-10"
             }
           }
         ]
@@ -150,16 +150,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "f2bb8610f6bb9f87",
   "lastOpenFiles": [
+    "_games/Dredge.md",
+    "assets/main.scss",
+    "_sass/main.scss",
+    "_sass",
     "top-10.md",
     "free-games.md",
     "_games/example-premium-game-1.md",
-    "_games/Dredge.md",
     "_site/games/Dredge/index.html",
     "_site/games/Dredge",
     "_site/templates/game template.html",
