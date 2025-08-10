@@ -17,9 +17,6 @@ minima:
   skin: dark
 plugins:
   - jekyll-feed
-  - fix_image_paths
-
-safe: true
 
 # The `whitelist` option is deprecated and has been replaced by `plugins`.
 # You can remove the `whitelist` section entirely as its functionality is
